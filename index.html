@@ -16,8 +16,37 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>seja bem-vindo(a) novamente.Faça o seu login para acessar a sua conta e poder fazer as configuraçoes no seu ambiente.</p>
-                <form action="login.php" method="post"></form>
+                <form action="login.php" method="post">
             </div>
+            <div class="campo">
+                <style>
+                    .material-symbols-outlined {
+                      font-variation-settings:
+                      'FILL' 0,
+                      'wght' 400,
+                      'GRAD' 0,
+                      'opsz' 24
+                    }
+                    </style>
+                <input type="email" name="login" id="ilogin" placeholder="seu e-mail" autocomplete="email" required maxlength="35" minlength="20">
+                <label for="ilogin">Login</label>
+            </div>
+            <div class="campo">
+                <style>
+                    .material-symbols-outlined {
+                      font-variation-settings:
+                      'FILL' 0,
+                      'wght' 400,
+                      'GRAD' 0,
+                      'opsz' 24
+                    }
+                    </style>
+                <input type="password" name="senha" id="isenha" placeholder="sua chave" autocomplete="current-password" required maxlength="15" minlength="10">
+                <label for="isenha">Senha</label>
+            </div>
+            <input type="submit" value="Entrar">
+            <a href="esqueci.html">Esqueci a minha senha</a>
+        </form>
         </section>
     </main>
 </body>
